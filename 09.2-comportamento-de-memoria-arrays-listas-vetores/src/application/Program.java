@@ -22,7 +22,7 @@ public class Program {
 		Product[] vect = new Product[n];
 
 		for (int i = 0; i < vect.length; i++) {
-			sc.nextLine();
+			sc.nextLine();// Consome quebra de linha pendente
 			String name = sc.nextLine();
 			double price = sc.nextDouble();
 			vect[i] = new Product(name, price);
